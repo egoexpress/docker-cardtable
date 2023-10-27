@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+
+  app:
+    image: egoexpress/cardtable:dev
+    restart: always
+    networks:
+      frontend:
+
+networks:
+  frontend:
