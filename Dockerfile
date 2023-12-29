@@ -1,4 +1,4 @@
-FROM node:20-alpine
+FROM node:21-alpine
 
 LABEL description="Image for Cardtable (github.com/erlloyd/cardtable" \
       maintainer="Bjoern Stierand <bjoern-github@innovention.de>"
