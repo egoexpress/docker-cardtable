@@ -1,9 +1,7 @@
-version: '3'
-
 services:
 
   app:
-    image: egoexpress/cardtable:511
+    image: egoexpress/cardtable:590
     restart: always
     networks:
       frontend:
